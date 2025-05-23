@@ -112,6 +112,5 @@ Based on the waterfall analysis, consider:
 4. **Cache mount points**: Use BuildKit cache mounts for package managers
 5. **Minimize layers**: Combine related RUN commands where appropriate
 
-![](pics/3.png)
 ![](pics/4.png)
 ![](pics/5.png)
