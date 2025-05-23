@@ -1,5 +1,5 @@
 # Docker Build Waterfall Viewer
-
+![](pics/2.png)
 A powerful visualization tool for analyzing Docker build logs. Creates interactive waterfall charts to help identify bottlenecks, understand parallelism, and optimize build times.
 
 ## Requirements
@@ -111,3 +111,7 @@ Based on the waterfall analysis, consider:
 3. **Multi-stage builds**: Separate build dependencies from runtime
 4. **Cache mount points**: Use BuildKit cache mounts for package managers
 5. **Minimize layers**: Combine related RUN commands where appropriate
+
+![](pics/3.png)
+![](pics/4.png)
+![](pics/5.png)
